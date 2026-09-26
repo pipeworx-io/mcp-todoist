@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-todoist",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Todoist MCP Pack",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-40e24da18b37682f2983e665ac0964105d59b36e231352a0e32a5c56186a0e10",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-88f7b93ee52d21739b03fb82730bc1dcf1121be36ec20e605c36c9999f230310",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }
