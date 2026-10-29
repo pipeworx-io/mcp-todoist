@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-todoist",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Todoist MCP Pack",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-todoist": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "todoist"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-todoist.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/todoist",
   "pipeworx": {
-    "sourceHash": "v1-88f7b93ee52d21739b03fb82730bc1dcf1121be36ec20e605c36c9999f230310",
-    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
+    "mode": "gateway",
+    "slug": "todoist",
+    "gatewaySlug": "todoist",
+    "sourceHash": "v1-9b32cec6c68af854cd3b1efc7cd8aee862f828f3a844ebf73d5be42a66f06321",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
