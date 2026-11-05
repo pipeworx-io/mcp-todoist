@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-todoist",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Todoist MCP Pack",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "todoist",
     "gatewaySlug": "todoist",
-    "sourceHash": "v1-9b32cec6c68af854cd3b1efc7cd8aee862f828f3a844ebf73d5be42a66f06321",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-f4b490220f1a1a5e64e448179b45db05a908ae79be4faaf74e2acadc66dc17a3",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
